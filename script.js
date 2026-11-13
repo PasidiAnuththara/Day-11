@@ -7,7 +7,6 @@ function loadSection(data) {
     let body = '';
     data.forEach(element => {
         body += `
-        <div class = "row">
             <div class="col">
                 <section class="card" style="max-width: 320px">
                     <img src="${element.image}" class="card-img-top" alt="...">
